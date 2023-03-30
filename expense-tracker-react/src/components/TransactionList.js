@@ -5,7 +5,13 @@ import { Transaction } from './Transaction';
 export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
 
-  //console.log(transactions);
+  console.log('');
+  console.log('***TransactionList***');
+  //transactions.map((t) => {
+  //  console.log('t.id = ' + t.id);
+  //  console.log('t.text = ' + t.text);
+  //  console.log('t.amount = ' + t.amount);
+  //});
 
   return (
     <>
